@@ -1,8 +1,4 @@
 
-Certainly! You can use CSS custom properties to rewrite your rules. Here's an example:
-
-css
-Copy code
 :root {
   --body-background-color: #011212;
   --ball-width: 100px;
