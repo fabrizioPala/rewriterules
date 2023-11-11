@@ -1,0 +1,23 @@
+
+Certainly! You can use CSS custom properties to rewrite your rules. Here's an example:
+
+css
+Copy code
+:root {
+  --body-background-color: #011212;
+  --ball-width: 100px;
+  --ball-height: 100px;
+  --ball-color: #ff8800;
+  --ball-border-radius: 50px;
+}
+
+body {
+  background-color: var(--body-background-color);
+}
+
+.ball {
+  width: var(--ball-width);
+  height: var(--ball-height);
+  background-color: var(--ball-color);
+  border-radius: var(--ball-border-radius);
+}
